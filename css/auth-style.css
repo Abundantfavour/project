@@ -1,0 +1,88 @@
+/* LOGIN AND SIGN UP */
+
+.signup-box{
+    width: 360px;
+    height: inherit;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+.login-box{
+    width: 360px;
+    height: inherit;
+    margin: auto;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(26, 180, 180);
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.para-2 a{
+   color:  rgb(5, 53, 53); 
+}
+
+body{
+    background-color: #c3c9d3;
+    font-family: sans-serif;
+}
+
+.error-msg {
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(219, 23, 23);
+}
+
+.text-success {
+    color: #27ae60;
+}

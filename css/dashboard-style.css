@@ -1,0 +1,80 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(../image/istockphoto-1299083810-612x612.jpg);
+background-size: 100% 100%;
+background-position: center;
+font-family: sans-serif;
+background-repeat: no-repeat ;
+background-attachment: fixed;
+}
+.HOMEPAGE-BAR
+{
+    background-color: rgb(39, 102, 81);
+    text-align: center;
+}
+.HOMEPAGE-BAR ul
+{
+    display: flex;
+    list-style: none;
+    color: #fff; ;
+}
+.HOMEPAGE-BAR ul li
+{
+    padding: 10px 30px;
+    position: relative;
+}
+.HOMEPAGE-BAR ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.HOMEPAGE-BAR ul li a:hover
+{
+ background-color: rgb(15, 148, 104);
+ border-radius: 5px;
+}
+.DROPDOWN-HOMEPAGE{
+    display: none;
+}
+
+.HOMEPAGE-BAR ul li:hover .DROPDOWN-HOMEPAGE{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(39, 102, 81);
+}
+
+.HOMEPAGE-BAR ul li:hover .DROPDOWN-HOMEPAGE ul{
+    display: block;
+    margin: 10px;
+}
+
+.HOMEPAGE-BAR ul li:hover .DROPDOWN-HOMEPAGE ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+.DROPDOWN-HOMEPAGE-1{
+    display: none;
+}
+
+.DROPDOWN-HOMEPAGE ul li:hover .DROPDOWN-HOMEPAGE-1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: rgb(39, 102, 81);
+}
